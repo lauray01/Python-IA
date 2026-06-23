@@ -12,6 +12,8 @@ pip install jupyter ipykernel
 python -m ipykernel install --user --name python-ai --display-name "Python-AI (.venv)"
 ```
 
+The `ipykernel install` step makes your virtual environment selectable inside Jupyter as `Python-AI (.venv)`, so notebooks run with this project's packages instead of a global Python interpreter.
+
 ## Notebooks
 
 A couple of starter notebooks are available in `/notebooks`:
