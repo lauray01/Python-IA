@@ -9,7 +9,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
 pip install jupyter ipykernel
-python -m ipykernel install --user --name python-ia --display-name "Python-IA (.venv)"
+python -m ipykernel install --user --name python-ai --display-name "Python-AI (.venv)"
 ```
 
 ## Notebooks
