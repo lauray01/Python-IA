@@ -8,7 +8,7 @@ Some work I've done with python for systems that are knowledge based as well as 
 python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
-pip install -r requirements.txt
+pip install jupyter ipykernel
 python -m ipykernel install --user --name python-ia --display-name "Python-IA (.venv)"
 ```
 
